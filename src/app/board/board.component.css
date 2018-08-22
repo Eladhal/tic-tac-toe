@@ -1,0 +1,19 @@
+.col-sm {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container {
+  margin-top: 150px;
+  width: 450px;
+  height: 500px;
+}
+
+button {
+  margin-top: 20px;
+  height: 60px;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

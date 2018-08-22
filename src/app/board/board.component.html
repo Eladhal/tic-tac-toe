@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row" *ngFor="let row of [0,1,2]">
+    <app-cell class="col-sm" *ngFor=" let col of [0,1,2]" [gameSqure]="getGameSqure(row,col)"
+              (squreClicked)="squreClicked($event)"></app-cell>
+  </div>
+  <button *ngIf="presentStartAgain" type="button" class="btn btn-info" (click)="startAgain()">Start another match</button>
+</div>
+
+
